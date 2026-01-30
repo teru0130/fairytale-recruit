@@ -2,7 +2,7 @@
 export const SITE_CONFIG = {
     name: "ノンアダルト専門チャットレディ求人ガイド",
     description: "ノンアダルト専門プロダクション「フェアリーテイル」の求人情報を紹介。WEB応募から面談までの流れ、応募条件、安全性について詳しく解説します。",
-    url: process.env.NEXT_PUBLIC_SITE_URL || "https://example.com",
+    url: "https://fairytale-recruit.vercel.app",
     version: process.env.NEXT_PUBLIC_SITE_VERSION || "v1",
 } as const;
 
