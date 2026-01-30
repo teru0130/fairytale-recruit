@@ -9,7 +9,8 @@ export type A8LinkParams = {
     id5?: string; // optional
 };
 
-const A8_BASE_URL = process.env.NEXT_PUBLIC_A8_BASE_URL || "";
+// A8リンク（環境変数が反映されない場合のフォールバック込み）
+const A8_BASE_URL = process.env.NEXT_PUBLIC_A8_BASE_URL || "https://px.a8.net/svt/ejp?a8mat=4AVI43+XCC76+54JW+5ZMCH";
 
 /**
  * A8アフィリエイトリンクを生成
