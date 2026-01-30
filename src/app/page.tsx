@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { AlertBox } from "@/components/AlertBox";
 import { PreApplicationCheck } from "@/components/PreApplicationCheck";
+import { A8Banner } from "@/components/A8Banner";
 import { PAGE_IDS } from "@/lib/site";
 
 export default function HomePage() {
@@ -103,6 +104,9 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* A8バナー広告 */}
+      <A8Banner />
 
       {/* フェアリーテイルの特徴 */}
       <section className="py-16 bg-gradient-to-br from-green-50 to-lime-50">
